@@ -1,0 +1,5 @@
+/media/
+.idea/
+venv/
+/mockup/
+test_main.http
