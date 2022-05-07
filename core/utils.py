@@ -1,7 +1,12 @@
 import shutil
 import subprocess
+from enum import Enum
 
 from fastapi import UploadFile
+
+
+class StringEnum(str, Enum):
+    pass
 
 
 def write_file(file_name: str, uploading_file: UploadFile):
